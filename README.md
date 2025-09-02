@@ -59,8 +59,8 @@ Before running the application, make sure you have the following installed on yo
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/atharv-thakre/blockchain-students.git
-cd blockchain-students
+git clone https://github.com/atharv-thakre/centralized_blockchain.git
+cd centralized_blockchain
 ```
 ### 2️⃣ Create virtual environment (optional but recommended)
 - windows
@@ -82,8 +82,7 @@ pip install -r requirements.txt
 
 ### 4️⃣ Run the app
 ```bash
-cd app
-python -m uvicorn main:app --reload
+python -m uvicorn app.main:app --reload
 ```
 
 ---
