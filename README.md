@@ -59,7 +59,7 @@ Before running the application, make sure you have the following installed on yo
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/blockchain-students.git
+git clone https://github.com/atharv-thakre/blockchain-students.git
 cd blockchain-students
 ```
 ### 2️⃣ Create virtual environment (optional but recommended)
