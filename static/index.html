@@ -1,0 +1,41 @@
+<!-- static/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Student Blockchain Demo</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; max-width: 900px; }
+    input, button { padding: 8px; margin: 6px 0; }
+    .card { border: 1px solid #ddd; padding: 12px; margin: 10px 0; border-radius: 6px; }
+    pre { background:#f4f4f4; padding:10px; overflow:auto; }
+  </style>
+</head>
+<body>
+  <h1>Student Blockchain Demo</h1>
+
+  <div class="card">
+    <h2>Create Student</h2>
+    <label>Roll No: <input id="roll_no" /></label><br/>
+    <label>Name: <input id="name" /></label><br/>
+    <label>Marks: <input id="marks" type="number" /></label><br/>
+    <button id="createBtn">Create Student</button>
+    <div id="createResult"></div>
+  </div>
+
+  <div class="card">
+    <h2>All Students</h2>
+    <button id="fetchBtn">Fetch Students</button>
+    <div id="studentsList"></div>
+  </div>
+
+  <div class="card">
+    <h2>Blockchain</h2>
+    <button id="fetchChain">View Blockchain</button>
+    <button id="validateChain">Validate Chain</button>
+    <div id="chainArea"></div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
